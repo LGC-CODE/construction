@@ -82,3 +82,37 @@ $(document).ready(function() {
 
   });
 
+  /* wow
+  -------------------------------*/
+
+  var app = angular.module('myApp', []);
+
+  app.controller('myCtrl', ['$scope', function($scope){
+
+  $scope.emailUs = function(){
+    if(!$scope.subject || $scope.subject == undefined  || $scope.subject == ""){ return; }
+    if(!$scope.body || $scope.body == undefined || $scope.body == ""){ return; }
+
+    subject = encodeURIComponent($scope.subject);
+    body = encodeURIComponent($scope.body);
+
+    var link = "mailto:elparaisonievesyraspados@gmail.com?subject=";
+    link += subject;
+    link += '&body=';
+    link += body;
+
+    window.location.href = link;
+
+    $('.success').fadeIn(1000).delay(2500).fadeOut(1000);
+  }; 
+
+  }]);
+
+
+
+
+
+
+
+
+

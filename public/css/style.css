@@ -598,6 +598,15 @@ label {
   background: #747474;
   position: absolute;
 }
+
+.success {
+  display: none;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  min-width: 264px;
+}
+
 /*---------------------------------------
     Footer section             
 -----------------------------------------*/
@@ -729,6 +738,14 @@ footer {
   #contact {
     padding-top: 80px;
     padding-bottom: 80px;
+  }
+
+  .success {
+  display: none;
+  position: absolute;
+  top: 33%;
+  left: 8%;
+  min-width: 264px;
   }
 
 }
