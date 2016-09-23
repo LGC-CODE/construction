@@ -25,6 +25,12 @@ html {
   font-size: 100%;
 }
 
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+  display: block;
+  max-width: 400px;
+  height: auto;
+  margin: 0px 27%;
+}
 
 /*---------------------------------------
     Typorgraphy              
@@ -747,6 +753,11 @@ footer {
   left: 8%;
   min-width: 264px;
   }
+
+  .carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+  
+  margin: 0px 0%;
+}
 
 }
 
