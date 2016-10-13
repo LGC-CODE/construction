@@ -96,7 +96,7 @@ $(document).ready(function() {
     subject = encodeURIComponent($scope.subject);
     body = encodeURIComponent($scope.body);
 
-    var link = "mailto:rest@gmail.com?subject=";
+    var link = "mailto:eaglebuilderswe@yahoo.com?subject=";
     link += subject;
     link += '&body=';
     link += body;
